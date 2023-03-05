@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Forms</title>
+    <link rel="stylesheet" type="text/css" href="registration.css">
+</head>
+
+<body>
+    <form action="register.mysql">
+        <div>
+            Name : <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Gender : 
+            <input type="radio" name="Gender" value="male">Male
+            <input type="radio" name="Gender" value="female">Female
+        </div>
+        <br>
+        <div>
+            Contact Number : <input type="phone" name="phoneno">
+        </div>
+        <br>
+        <div>
+            Email : <input type="email" name="myEmail">
+        </div>
+        <br>
+        <!-- <div>
+            Color <input type="color" name="myColor">
+        </div>
+        <br>
+        <div> -->
+            Password : <input type="password" name="Password">
+        </div>
+        <br>
+        <br>
+        <div>
+            Document Name : <label for="Identity"></label>
+            <select name="myIdentity" id="Identity">
+                <option selected hidden value="">Select Document Name</option>
+                <h2><option value="Aadhar">Aadhar Card</option></h2>
+                <option value="Pan">Pan Card</option>
+                <option value="DriLic">Driving License</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Upload Identity Card : <input type="file" name="myFile">
+        </div>
+        <br>
+        <div>
+            Select Work : <label for="Work"></label>
+            <select name="myWork" id="work">
+                <option selected hidden value="">Select Your Volunteering Preference</option>
+                <option value="BDD">Blood Donation Drive</option>
+                <option value="BCUP">Beach Cleanup</option>
+                <option value="TIS">Teaching In Schools</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Your Date of Joining:<input type="datetime-local" name="mydoj">
+        </div>
+        <div>
+            <br>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset">
+        </div>
+        <br>
+
+    </form>
+<br>
+</body>
+
+</html>

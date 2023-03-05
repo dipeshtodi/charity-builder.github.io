@@ -1,0 +1,81 @@
+form {
+    max-width:600px;
+    max-height:1250px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ef9292;
+    border-radius: 10px;
+  }
+  /* h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  } */
+  /* input[type="radio"], */
+  label[for="Identity"],
+  label[for="Work"]{
+  width: 505px;
+  height: 100px;
+tab-size: 50px;
+block-size: 50px 50px;
+
+  }
+
+  input[type="phone"],
+  input[type="file"],
+  input[type="datetime-local"]{
+   t width: 90%;
+    padding: 12px;
+    margin: 5px auto;
+    /* margin-bottom: 20px; */
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 90%;
+    padding: 12px;
+    margin: 5px auto;
+    /* margin-bottom: 20px; */
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  input[type="submit"] {
+    background-color: #db8835;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  input[type="reset"] {
+    background-color: #db8835;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  input[type="reset"]:hover {
+    background-color: #3e8e41;
+  }

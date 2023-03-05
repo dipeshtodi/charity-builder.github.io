@@ -1,0 +1,77 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+h1{
+    font-family: "montserrat-black";
+    font-size: 3rem;
+    line-height:1.5;
+}
+container-fluid{
+    padding: 3% 15%;
+}
+body{
+    font-family: "montserrat";
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat-light";
+}
+.download-button{
+    margin: 5% 3% 5% 0 ;
+}
+.title-image{
+    width: 60%;
+}
+
+#features{
+    padding: 7% 15% ;
+}
+.feature-box{
+    text-align: center;
+}
+h3{
+    font-family: "Montserrat-bold";
+    font-size:1.5rem;
+}
+p{
+
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#f28da8 ;
+    color: #fff;
+}
+h2{
+    font-family:"montserrat-bold" ;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+.btn{
+    background color: black ;
+    padding:6px;
+    border:none;
+    cursor:pointer;
+    font-size:20px;
+    border-radius:4px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:rgba(49, 49, 49, 0.048);
+    background-color:rgb(124, 38, 124);
+    }

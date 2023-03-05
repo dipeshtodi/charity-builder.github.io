@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    font-size: larger;
+    margin-right: 20px;
+}
+
+.header .logo {
+    font-size: 45px;
+    font-family: 'Sriracha', cursive;
+    color: #000;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 500;
+}
+.buttons {
+    margin: 20%;
+    text-align: center;
+    align-content: center;
+}
+
+.btn-hover {
+    width: 300px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 40px;
+    height: 75px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    align-content: center;
+}
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(159, 168, 79, 0.75);
+}
